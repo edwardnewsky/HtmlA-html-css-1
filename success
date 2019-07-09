@@ -1,0 +1,6 @@
+Полезное
+
+Chrome dew tools
+
+1. Клавиша H - скрыть элемент
+2. document.body.contentEditable = true (печатать в браузере)
