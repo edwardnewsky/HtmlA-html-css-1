@@ -130,13 +130,15 @@ a {
 	border-color: #663d15;
 }
 
-/*Catalog item end*/
+/*Main page end*/
 
-.product-photo-previe {
+/*Catalog item start*/
+
+.product-photo-preview {
 	list-style: none;
 }
 
-.product-photo-previe li {
+.product-photo-preview li {
 	box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0, 0.1);
 }
 
@@ -165,9 +167,7 @@ a {
 	list-style: none;
 }
 
-/*Main page end*/
-
-/*Catalog item start*/
+/*Catalog item end*/
 
 .main-footer {
 	color: #fff;
