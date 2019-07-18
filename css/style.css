@@ -1,4 +1,5 @@
-/* Базовая стилизация */
+/*Base style start*/
+
 body {
 	margin: 0;
 	padding: 0;
@@ -49,7 +50,10 @@ a {
 	background-color: #663d15;
 }
 
-/* Главная страница */
+/*Base style end*/
+
+/*Main page start*/
+
 .main-navigation {
 	font-size: 16px;
 	line-height: 20px;
@@ -126,6 +130,45 @@ a {
 	border-color: #663d15;
 }
 
+/*Catalog item end*/
+
+.product-photo-previe {
+	list-style: none;
+}
+
+.product-photo-previe li {
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0, 0.1);
+}
+
+.product-photo-full {
+		box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0, 0.1);
+}
+
+.product-article {
+	text-align: right;
+	color: #aeaeae;
+}
+
+.product-price b {
+	line-height: 20px;
+	text-align: center;
+
+	background-color: #e5e5e5;
+}
+
+.product-info h3 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.product-info ul {
+	list-style: none;
+}
+
+/*Main page end*/
+
+/*Catalog item start*/
+
 .main-footer {
 	color: #fff;
 
@@ -134,6 +177,8 @@ a {
 	background-position: 0 0;
 	background-repeat: repeat;
 }
+
+/*Footer start*/
 
 .footer-contacts a {
 	color: #fff;
@@ -167,6 +212,10 @@ a {
 
 	background-color: #fff;
 }
+
+/*Footer end*/
+
+/*Modal login start*/
 
 .modal {
 	color: #000;
@@ -210,3 +259,5 @@ a {
 .restore:focus {
 	text-decoration: none;
 }
+
+/*Modal login end*/
