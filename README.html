@@ -20,64 +20,42 @@
 			<h1 class="page-title">Полезные материалы</h1>
 
 			<section class="lesson">
-				<h2 class="lesson-title">Лекция 1</h2>
-				<p>
-					<span>Урок 1</span>
-					<span>Chrome dew tools</span>
-				</p>
-
-			</section>
-
-			<section class="lessons">
-				<h2 class="lesson-titless">Лекция 3</h2>
-				<label>
-					Ширина	<input type="range" name="radio">
-				</label>
-
-				<details>
-					<summary></summary>
-					<p>Если их не покрасить в черный цвет</p>
-				</details>
-
-				<label>
-					Цвет
-					<input list="friges">
-				</label>
-				<datalist id="friges">
-					<option value="Красный">
-					<option value="Оранжевый">
-				</datalist>
-				<h1 class="visually-hidden">Заголовок</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</section>
-
-			<section class="practice">
-				<h2 class="practice"></h2>
+				<h2 class="lesson-title">Лекция ***</h2>
 			</section>
 
 
 
+			<section class="useful">
+				<h2 class="useful-title">Тестовый блок</h2>
+			</section>
 
-		
+			<section class="test">
+				<h2 class="test-title">Тестовый блок</h2>
 
+				<!-- HTML -->
 
-		<section class="test">
-			<h1>Логин</h1>
-			<form class="user" method="post" action="">
-				<p>
-					<label for="user-login">Логин</label>
-					<input type="user-login" name="login" type="text" placeholder="Логин">
-				</p>
-				<p></p>
-			</form>
-		</section>
-		
+				<!-- CSS -->
+
+				<!-- JS -->
+				    <script>
+      				if (window.localStorage) {
+       					var elements = document.querySelectorAll('[name]');
+
+						for (var i = 0, length = elements.length; i < length; i++) {
+						 	(function(element) {
+							var name = element.getAttribute('name');
+
+				        		element.value = localStorage.getItem(name) || '';
+
+				        		element.onkeyup = function() {
+				        			localStorage.setItem(name, element.value);
+				         		};
+				        	})(elements[i]);
+				        }
+				      }
+				    </script>
+			</section>
+
 		</main>
 
 		<footer></footer>
