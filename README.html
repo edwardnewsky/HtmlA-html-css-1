@@ -26,11 +26,7 @@
 
 
 			<section class="useful">
-				<h2 class="useful-title">Тестовый блок</h2>
-			</section>
-
-			<section class="test">
-				<h2 class="test-title">Тестовый блок</h2>
+				<h2 class="useful-title">Полезности</h2>
 
 				<!-- HTML -->
 
@@ -54,6 +50,53 @@
 				        }
 				      }
 				    </script>
+			</section>
+
+			<section class="test">
+				<h2 class="test-title">Тестовый блок</h2>
+
+
+      <form action="https://echo.htmlacademy.ru" method="post" oninput="ИМЯ_АУТПУТА.value=ИМЯ_ИНПУТА.value">
+
+      	<!-- ИСПЫТАНИЕ -->
+        <fieldset>
+        <legend>Личные данные</legend>
+       
+        <div class="half-width">
+
+        <label for="rating">Оценка поездки</label>
+
+        0<input type="range" id="field-range-id" name="field-range-name" max="10" value=10 step="1">10 
+
+
+        <output for="field-range" name="field-range-output-name" id="field-range-output-id"></output>
+    
+		<output for="field-range" name="daysoutput" id="field-range-output"></output>
+
+        </div>
+        </fieldset>
+
+		<!-- ПРАКИКА -->
+		<form action="https://echo.htmlacademy.ru" method="post" oninput="daysoutput.value=dayscount.value">
+			
+		<div class="half-width">
+          <label for="dayscount">Количество дней</label>
+          1<input type="range" id="dayscount" name="dayscount" min="1" max="14" step="1">14
+        </div>
+        <div class="half-width output-area">
+          <!-- Область для вывода значения -->
+          <output for="field-range" name="daysoutput" id="field-range-output"></output>
+        </div>
+
+
+
+      </form>
+    </main>
+    <footer class="page-footer"></footer>
+  </body>
+</html>
+
+
 			</section>
 
 		</main>
