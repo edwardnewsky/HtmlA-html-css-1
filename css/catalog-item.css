@@ -34,3 +34,16 @@
 }
 
 /*Catalog item end*/
+
+	/*Grid styles catalog item start*/
+
+	.product-photos {
+		width: 460px;
+	}
+
+	.product-info {
+		width: 390px;
+	}
+
+
+	/*Grid styles catalog item end*/
